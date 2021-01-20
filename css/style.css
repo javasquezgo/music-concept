@@ -6,6 +6,7 @@
 
 html{
     font-size: 62.5%;
+    font-family: 'Gilroy Extrabold';
 }
 
 body{
@@ -24,25 +25,14 @@ header{
 }
 
 /* Style the search field */
-form.example input[type=text] {
+form.example input {
     padding: 10px;
     font-size: 17px;
-    border: 1px solid grey;
+    border: 0;  
     float: left;
     width: 546px;
     background: #f1f1f1;
+    border-radius: 10px;
   }
   
-  /* Style the submit button */
-  form.example button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none; /* Prevent double borders */
-    cursor: pointer;
-  }
   
