@@ -16,17 +16,19 @@ body{
 }
 
 header{
-    padding: 54px 0 0 140px;
+    padding: 54px 0 0 110px;
     display: flex;
+    align-items: center;
 }
 
 .header-img{
-    margin-right: 244px;
+    margin-right: 150px;
 }
 
 /* Style the search field */
 form.example input {
     padding: 10px;
+    margin-right: 150px;
     font-size: 17px;
     border: 0;  
     float: left;
@@ -35,4 +37,29 @@ form.example input {
     border-radius: 10px;
   }
   
-  
+.header-nav__ul{
+    display: flex;
+    list-style: none;
+}
+
+.header-nav__li{
+    padding-right: 64px;
+}
+
+.header-nav__a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.header-button__subscribe{
+    padding: 16px 56px;
+    background-color: #E94560;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    text-shadow:
+    0 0 5px rgba(233, 69, 96, 1),
+    0 0 10px rgba(233, 69, 96, 1),;
+    box-shadow: 0 0 50px #E94560; 
+}
